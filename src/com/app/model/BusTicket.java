@@ -14,7 +14,7 @@ public class BusTicket {
 	private int tcId;
 	@Column(name="source")
 	private String from;
-	@Column(name="dest")
+	@Column(name="destination")
 	private String to;
 	@Column(name="total")
 	private double fare;
