@@ -10,7 +10,7 @@ import javax.persistence.Transient;
 @Table(name="busTab")
 public class BusTicket {
 	@Id
-	@Column(name="tid")
+	@Column(name="id")
 	private int tcId;
 	@Column(name="source")
 	private String from;
